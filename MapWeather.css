@@ -1,0 +1,57 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: 
+      /* top, transparent red, faked with gradient */ 
+      linear-gradient(
+        rgba(8, 240, 220, 0.7), 
+        rgba(255, 196, 0, 0.7)
+      ),
+      /* bottom, image */
+      url("clear_blue_sky.jpg")center center no-repeat;
+      background-size: cover;
+    
+    color: white;
+  }
+
+.col-sm-4{
+    font-size: 16pt;
+}
+
+.outer {
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+  
+.inner {
+    display: inline-block;
+    font-size: 16pt;
+    z-index: 999;
+  }
+
+  #stops{
+    font-size: 16pt;
+  }
+
+  .btn{
+    font-size: 10pt;
+    margin-top: 20px;
+
+  }
+
+.rub{
+    font-size: 75pt;
+    font-weight: bolder;
+
+}
+h2{
+    font-size: 24pt;
+    font-weight: 200;
+}
+
+
+    
+  
+
