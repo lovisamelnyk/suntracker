@@ -1,12 +1,8 @@
-Api:er som används:
+Api:
 
-- Trafiklabs SL närliggande hållplatser https://www.trafiklab.se/api/sl-narliggande-hallplatser
+-  SL https://www.trafiklab.se/api/sl-narliggande-hallplatser
 
 - Open weather data https://openweathermap.org/current
 
-Key behövs
-
-Programmet sträcker sig endast i Stockholm eftersom SL inte kör längre än så. 
-Om den soliga platsen ligger på en kordinat som ligger utanför Stockholm så listas inga hållplatser.
-
-Funkar bara på egen server. 
+Api key needed.
+Limited to the Stockholm area because SL does'nt go further than that. 
